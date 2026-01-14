@@ -1,0 +1,11 @@
+# Global configuration for the replication
+seasons:
+  start: 1990
+  end: 2025
+min_minutes: 1000
+positions: ["G", "F", "C"]
+metric: "BPM"   # Box Plus/Minus
+# Derived era labels for comparison
+eras:
+  - {name: "Pre-Modern", start: 1990, end: 2015}
+  - {name: "Modern", start: 2015, end: 2025}

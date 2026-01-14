@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Envs
+.env
+venv/
+.env.*
+*.env
+
+# Data and outputs
+data/raw/*
+!data/raw/.gitkeep
+data/clean/*
+!data/clean/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+reports/figures/*
+reports/tables/*
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
